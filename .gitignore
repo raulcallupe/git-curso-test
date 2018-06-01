@@ -1,0 +1,13 @@
+test
+test2/leeme.txt
+
+#ignora todos los archivos .tff solo en la carpeta actual
+*.tff
+
+#ignora todos los archivos .tff recursivamente desde la carpeta actual
+**.tff
+
+#ignora todos los archivos .tff en los subdirectorios recursivamente desde la carpeta actual pero no incluye la carpeta actual
+**/*.tff
+
+ 
